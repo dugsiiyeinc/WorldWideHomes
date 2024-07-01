@@ -88,7 +88,7 @@ Follow these steps to get a local copy of the project up and running.
 3. **Open the index.html file in a browser.**
 
 - Simply double-click the `index.html` file, or
-- Use a web server tool like Live Server for a better development experience.
+- Use a web server tool like `Live Server` for a better development experience.
 
 
 ## Features

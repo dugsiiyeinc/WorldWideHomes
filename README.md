@@ -42,7 +42,7 @@ The WorldWideHomes project consists of several key pages, each designed to provi
 - **Purpose**: Provides detailed information about a specific property.
 - **Features**:
   - High-quality images of the property
-  - Detailed description including amenities, price, and location
+  - Detailed description including amenities, price
   - Total flat space
   - Contract readiness
   - Payment process details

@@ -22,7 +22,7 @@ TheWorldWideHomes project consists of several key pages, each designed to provid
 
 ### Pages
 
-**Home Page**
+**Home**
 
 - **Purpose**: Serves as the main entry point of the website.
 - **Features**:
@@ -49,7 +49,7 @@ TheWorldWideHomes project consists of several key pages, each designed to provid
   - 24/7 security control
   - Find your best deal right now!
 
-**Contact Page**
+**HOME / CONTACT US**
 
 - **Purpose**: Allows users to get in touch with WorldWideHomes.
 - **Features**:

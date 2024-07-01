@@ -18,7 +18,7 @@ Welcome to **WorldWideHomes**, the ultimate platform for finding rental homes wo
 
 ## Project Structure
 
-TheWorldWideHomes project consists of several key pages, each designed to provide specific information . Below is a detailed explanation of each page and its features.
+The WorldWideHomes project consists of several key pages, each designed to provide specific information . Below is a detailed explanation of each page and it`s features.
 
 ### Pages
 

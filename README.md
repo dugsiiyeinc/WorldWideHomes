@@ -105,7 +105,7 @@ Follow these steps to get a local copy of the project up and running.
 
 ## Team
 - **Team Leader:** [Abdullah Ali](https://github.com/Ac-Coder-3)
-- **Member :** [Ayalee Ahmed](https://github.com/ayale3)
+- **Member :** [Ayalee Osman](https://github.com/ayale3)
 - **Member :** [Abdinour Sonkor](https://github.com/AbdinourSonkor)
 
 

@@ -49,7 +49,7 @@ TheWorldWideHomes project consists of several key pages, each designed to provid
   - 24/7 security control
   - Find your best deal right now!
 
-**HOME / CONTACT US**
+**HOME/CONTACT US**
 
 - **Purpose**: Allows users to get in touch with WorldWideHomes.
 - **Features**:

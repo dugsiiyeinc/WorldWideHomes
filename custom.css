@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #f35525;
+  --secondary-color: #1e1e1e;
+  --bg-color: #fff;
+  --bg-icons-color: #cdcdcd;
+  --subtitle-color: #aaaaaa;
+  --info-color: #7a7a7a;
+  --border-color: #eeeeee;
+}
+
+header .sub-nav {
+  background: var(--bg-color);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+header .sub-nav .container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+header .sub-nav .container .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .sub-nav .container .flex-container .address {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .sub-nav .container .flex-container .address > span::before {
+  content: "|";
+  color: var(--border-color);
+}
+header .sub-nav .container .flex-container .address .email-icon,
+header .sub-nav .container .flex-container .address-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--info-color);
+  font-size: 20px;
+}
+
+header .sub-nav .container .flex-container .address .email-icon i {
+  color: var(--primary-color);
+}
+header .sub-nav .container .flex-container .address .address-icon i {
+  color: var(--primary-color);
+}
+header .sub-nav .container .flex-container .address .email-icon p,
+header .sub-nav .container .flex-container .address .address-icon p {
+  font-size: 14px;
+}
+
+header .sub-nav .container .flex-container .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  text-align: center;
+  line-height: 31px;
+}
+header .sub-nav .container .flex-container .social-links a {
+  background-color: var(--bg-icons-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+header .sub-nav .container .flex-container .social-links a:hover {
+  background-color: var(--primary-color);
+}
+header .sub-nav .container .flex-container .social-links a > i {
+  color: var(--bg-color);
+}
+
+/* sub-nav -> responsive */
+@media (max-width: 997px) {
+  header .sub-nav {
+    display: none;
+  }
+}

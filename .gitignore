@@ -1,3 +1,5 @@
-#design
-#.anima
-#.vscode
+*design
+#Ignore anima directory
+.anima/
+#Ignore vscode directory
+.vscode/

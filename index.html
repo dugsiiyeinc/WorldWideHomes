@@ -36,7 +36,7 @@
           </div>
         </div>
       </section>
-      <section class="site-navigation">
+      <section class="site-navigation nav">
         <div class="container">
           <div class="desktop-navigation">
             <a href="#Villa" class="logo">VILLA</a>
@@ -47,18 +47,57 @@
                 <li><a href="#property">property details</a></li>
                 <li><a href="#contact">contact us</a></li>
                 <li>
-                    <a href="#schedule" id="btn-schedule">
-                        <i class="fa-solid fa-calendar"></i>
-                       <span> schedule visit</span>
-                    </a>
+                  <a href="#schedule" id="btn-schedule">
+                    <i class="fa-solid fa-calendar"></i>
+                    <span> schedule visit</span>
+                  </a>
                 </li>
               </ul>
             </nav>
           </div>
+          <div class="hamburgger">
+            <!-- <i class="fa-solid fa-bars-staggered" data-visible="true"></i> -->
+            <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
+
+            <i class="fa-solid fa-xmark" data-visible="false"></i>
+          </div>
+          <!-- navigation -->
+          <nav class="navigation" data-visible="false">
+            <ul>
+              <li><a href="#home" class="active">home</a></li>
+              <li><a href="#properties">properties</a></li>
+              <li><a href="#property">property details</a></li>
+              <li><a href="#contact">contact us</a></li>
+            </ul>
+          </nav>
         </div>
       </section>
     </header>
 
+    <section class="hero-section">
+      <div class="banner-container">
+        <div class="container">
+          <div class="banner" data-index="0">
+            <img src="/image/banner-01.jpg" alt="Banner-1" />
+            <h1>toronto <span>canada</span></h1>
+            <p>hurry! get the best villa for you</p>
+          </div>
+          <div class="banner" data-index="1">
+            <img src="/image/banner-02.jpg" alt="Banner-2" />
+            <h1>Melbourne, <span>Australia</span></h1>
+            <p>Be Quick! Get the best villa in town</p>
+          </div>
+          <div class="banner" data-index="2">
+            <img src="/image/banner-03.jpg" alt="Banner-3" />
+            <h1>Miami, <span>South Florida</span></h1>
+            <p>Act Now! Get the highest level penthouse</p>
+          </div>
+        </div>
+        <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </section>
+    <h5 align="center">ac coder</h5>
     <script src="./custom.js"></script>
   </body>
 </html>

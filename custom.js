@@ -44,13 +44,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+  //* slides
   const banner = document.querySelectorAll(".banner");
   const nextButton = document.querySelector(".next");
   const prevButton = document.querySelector(".prev");
   let currentIndex = 0;
 
-  // Show the first banner initially
   banner[currentIndex].classList.add("active");
 
   function showBanner(index) {
@@ -67,6 +66,50 @@ document.addEventListener("DOMContentLoaded", function () {
     currentIndex = (currentIndex - 1 + banner.length) % banner.length;
     showBanner(currentIndex);
   });
+
+
+  // faqs-section
+
+
+  const questions = document.querySelectorAll('.question');
+  const answers = document.querySelectorAll('.answer');
+
+
+  if (answers.length > 0) {
+    answers[0].style.display = 'block';
+  }
+
+  questions.forEach((header, index) => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const isVisible = content.style.display === 'block';
+
+      answers.forEach(item => {
+        item.style.display = 'none';
+      });
+
+      if (!isVisible) {
+        content.style.display = 'block';
+
+      }
+
+    });
+  });
+
+
+  document.querySelectorAll('.question > h1').forEach((header) => {
+    header.addEventListener('click', () => {
+      const answer = header.nextElementSibling;
+      document.querySelectorAll('.question > h1').forEach((otherHeader) => {
+        if (otherHeader !== header) {
+          otherHeader.classList.remove('active');
+        }
+
+      });
+      header.classList.add('active');
+    });
+  });
+
 
 
 });

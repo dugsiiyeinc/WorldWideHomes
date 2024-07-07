@@ -21,5 +21,6 @@
     "peacock.color": "#1857a4",
     "cSpell.words": [
         "mobilemenu"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

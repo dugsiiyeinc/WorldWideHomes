@@ -405,6 +405,37 @@ h5 {
   font-weight: 400;
 }
 
+/* contact us section */
+.page-heading {
+  background: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg")
+    center/cover no-repeat;
+
+  background-position: center bottom;
+  padding: 110px 0px;
+  text-align: center;
+  height: 70vh;
+}
+.page-heading > article{
+  margin: 78px auto;
+}
+.page-heading article > h3 {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.page-heading article > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--bg-color);
+}
+.page-heading > article {
+}
 /* sub-nav -> responsive */
 @media (max-width: 997px) {
   header .sub-nav {

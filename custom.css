@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+  transition: var(--transition);
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -415,7 +419,7 @@ h5 {
   text-align: center;
   height: 70vh;
 }
-.page-heading > article{
+.page-heading > article {
   margin: 78px auto;
 }
 .page-heading article > h3 {
@@ -434,12 +438,137 @@ h5 {
   text-transform: uppercase;
   color: var(--bg-color);
 }
-.page-heading > article {
+.contact-page {
+  margin-block: 120px;
+}
+
+.contact-page .container .row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.contact-page .container .row .col-info {
+  flex-basis: 100%;
+}
+.contact-page .container .row .col-info article > h4::before {
+  content: "|";
+  margin: 3px;
+}
+.contact-page .container .row .col-info article > h4 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  margin-bottom: 11px;
+}
+.contact-page .container .row .col-info article > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-page .container .row .col-info article > p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--info-color);
+  margin-bottom: 50px;
+  height: max-content;
+}
+.contact-page .container .row .getInTouch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-start;
+  flex-direction: column;
+}
+.contact-page .container .row .getInTouch .item-phone p,
+.contact-page .container .row .getInTouch .item-email p {
+  font-size: 15px;
+  color: var(--subtitle-color);
+  font-weight: 400;
+}
+.contact-page .container .row .getInTouch .item-phone,
+.contact-page .container .row .getInTouch .item-email {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #00000026;
+  padding: 35px 30px;
+  background-color: var(--bg-color);
+  min-width: 360px;
+}
+.contact-page .container .row .getInTouch .item-email {
+  margin-top: 30px;
+}
+
+.contact-page .container .row .col-form {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+  background-color: #fff;
+  width: 100%;
+}
+.contact-page .container .row .col-form form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.contact-page .row .col-form form .form-group label {
+  font-size: 15px;
+  color: var(--info-color);
+  margin-bottom: 15px;
+}
+.contact-page .container .row .col-form form .form-group input {
+  width: 100%;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  text-transform: capitalize;
+  letter-spacing: 0.6px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+.contact-page .container .row .col-form form .form-group textarea {
+  width: 100%;
+  height: 150px;
+  max-height: 180px;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  border: none;
+  outline: none;
+  margin-bottom: 40px;
+  font-size: 14px;
+  padding: 15px 15px;
+}
+.contact-page .container .row .col-form form button {
+  background-color: var(--secondary-color);
+  border-radius: 22px;
+  color: var(--bg-color);
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  height: 44px;
+  padding: 0px 20px;
+  transition: var(--transition);
+}
+.contact-page .container .row .col-form form button:hover {
+  background-color: var(--primary-color);
 }
 /* sub-nav -> responsive */
 @media (max-width: 997px) {
   header .sub-nav {
     display: none;
+  }
+
+  .contact-page .container .row {
+    flex-direction: column;
+  }
+  .contact-page .container .row .getInTouch {
+    align-items: normal;
   }
 }
 /* site-navigation -> responsive */

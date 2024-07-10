@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
   transition: var(--transition);
 }
@@ -420,7 +420,7 @@ h5 {
   height: 70vh;
 }
 .page-heading > article {
-  margin: 78px auto;
+  margin: 60px auto;
 }
 .page-heading article > h3 {
   background-color: var(--bg-color);
@@ -558,6 +558,31 @@ h5 {
 .contact-page .container .row .col-form form button:hover {
   background-color: var(--primary-color);
 }
+/* section map */
+.map {
+  margin: 20px 0px;
+}
+.map .container iframe {
+  width: 100%;
+  height: 100vh;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+footer {
+  margin-top: 150px;
+  background-color: var(--secondary-color);
+  height: 100px;
+}
+footer > p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 100px;
+  color: var(--bg-color);
+  height: 100px;
+}
 /* sub-nav -> responsive */
 @media (max-width: 997px) {
   header .sub-nav {
@@ -569,6 +594,22 @@ h5 {
   }
   .contact-page .container .row .getInTouch {
     align-items: normal;
+  }
+  .page-heading > article {
+    margin: 78px auto;
+  }
+  .contact-page .container .row .getInTouch .item-phone,
+  .contact-page .container .row .getInTouch .item-email {
+    min-width: auto;
+  }
+  footer {
+    padding: 10px;
+    height: initial;
+  }
+  footer > p {
+    font-size: 15px;
+    height: initial;
+    line-height: 1.6 !important;
   }
 }
 /* site-navigation -> responsive */

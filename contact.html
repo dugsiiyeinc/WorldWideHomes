@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME / CONTACT US</title>
+  <link rel="stylesheet" href="custom.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <section class="sub-nav">
+      <div class="container">
+        <div class="flex-container">
+          <div class="address">
+            <div class="email-icon">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@company.com</p>
+            </div>
+            <span></span>
+            <div class="address-icon">
+              <i class="fa-solid fa-map"></i>
+              <p>Sunny Isles Beach, FL 33160</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#facebook"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#instagram"> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-navigation nav">
+      <div class="container">
+        <div class="desktop-navigation">
+          <a href="#Villa" class="logo">VILLA</a>
+          <nav>
+            <ul>
+              <li><a href="./index.html" >home</a></li>
+              <li><a href="#properties">properties</a></li>
+              <li><a href="#property">property details</a></li>
+              <li><a href="#contact" class="active">contact us</a></li>
+              <li>
+                <a href="#schedule" id="btn-schedule">
+                  <i class="fa-solid fa-calendar"></i>
+                  <span> schedule visit</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hamburgger">
+          <!-- <i class="fa-solid fa-bars-staggered" data-visible="true"></i> -->
+          <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
+
+          <i class="fa-solid fa-xmark" data-visible="false"></i>
+        </div>
+        <!-- navigation -->
+        <nav class="navigation" data-visible="false">
+          <ul>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="#properties">properties</a></li>
+            <li><a href="#property">property details</a></li>
+            <li><a href="#contact" class="active">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="page-heading">
+    <article>
+      <h3>home / contact us</h3>
+      <h1>contact us</h1>
+    </article>
+  </section>
+  <section class="contact-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-info">
+          <article>
+            <h4>contact us</h4>
+            <h1>get in touch with our agents</h1>
+            <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell
+              your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates
+              on our website. If you need more information, please contact us.</p>
+          </article>
+
+          <article class="getInTouch">
+            <article class="item-phone">
+
+              <img src="./image/phone-icon.png" alt="item-phone">
+              <div class="class=" flex-container>
+                <h1>010-044-0567</h1>
+                <p>phone number</p>
+              </div>
+
+            </article>
+            <article class="item-email">
+              <img src="./image/email-icon.png" alt="item-email">
+              <div class="class=" flex-container>
+                <h1>info@villa.co</h1>
+                <p>business email</p>
+              </div>
+            </article>
+        </div>
+
+        <div class="col-form">
+          <form action="./index.html" method="post">
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input type="text" name="fullname" id="fullname" placeholder="your name">
+            </div>
+            <div class="form-group">
+              <label for="email">email address</label>
+              <input type="text" name="email" id="email" placeholder="your e-mail">
+            </div>
+            <div class="form-group">
+              <label for="subject">subject</label>
+              <input type="text" name="subject" id="subject" placeholder="subject">
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">message</label>
+              <textarea name="message" id="message" class="form-textarea" rows="4" cols="50" placeholder="your message"
+                required></textarea>
+            </div>
+            <button type="submit">send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="./custom.js"></script>
+</body>
+
+</html>

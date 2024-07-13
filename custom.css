@@ -597,7 +597,7 @@ footer > p {
   position: relative;
 }
 
-.container {
+.container-best-deal {
   margin: 0 10px 0 10px;
 }
 
@@ -979,6 +979,254 @@ a {
     padding: 15px;
   }
 }
+
+/* propety details page */
+
+
+/* Page Heading */
+.page-heading {
+  background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Page-heading-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-heading-text {
+  margin-top: 150px;
+}
+
+.page-heading-text span {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.page-heading-text span a {
+  color: #1e1e1e;
+}
+
+.page-heading-text h3 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .page-heading {
+    padding: 80px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .page-heading-text {
+    margin-top: 50px;
+  }
+
+ 
+}
+
+/* single property Section */
+.single-property{
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+.main-image img{
+  width: 800px;
+}
+
+
+.image-table{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+}
+.info-table ul li {
+  display: flex;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  height: fit-content;
+ 
+
+  
+}
+
+.info-table ul li img {
+  float: left;
+  margin-right: 25px;
+  width: 52px;
+  height: 44px;
+ 
+}
+
+.info-table ul li h4 {
+  font-size: 22px;
+  font-weight: 600;
+ 
+}
+
+.info-table ul li h4 span {
+  font-size: 15px;
+  color: rgb(170, 170, 170);
+  font-weight: 400;
+  white-space: nowrap;
+  
+    
+}
+
+.info-table {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+  padding: 35px 30px;
+  margin-left: 60px;
+  
+   
+}
+/*  */
+
+.single-property .main-content span.category {
+  background-color: #fbd9cf;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #1e1e1e;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.single-property .main-content h4 {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.main-content .p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #4a4a4a;
+  background-color: #ee626b;
+
+ 
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+
+
+.main-content{
+
+  width: 800px;
+}
+
+.useful-links{
+  background-color: rgba(213, 213, 213, 0.2);
+  margin-top: 60px;
+  width: 800px;
+  margin-bottom: 60px;
+
+  
+}
+
+.useful-links1{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  margin-left: 10px;
+  font-weight: 500;
+
+  
+}
+
+.useful-links2{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  margin-left: 10px;
+  font-weight: 500;
+  
+  
+}
+
+.useful-links3{
+  
+  padding: 15px 0;
+  margin-left: 10px;
+  font-weight: 500;
+
+  
+}
+
+.info-mobile{
+  display: none;
+}
+
+
+@media (max-width: 992px) {
+  .info-largescreen{
+      display: none;
+  }
+  
+  .single-property{
+       
+      margin-left: 10px;
+      margin-right: 10px;
+  } 
+      
+  .image-table{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 10px;
+      margin-right: 10px;
+       
+  }
+  .main-image img{
+      width: 100%;
+  }
+
+  .main-content{
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10x;
+  }
+
+  .useful-links {
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+       
+  }
+  
+  
+  .info-mobile{
+      display: block;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+}
+/* end of prperty details page  */
 /* End Ayanle's Section */
 
 

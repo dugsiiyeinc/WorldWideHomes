@@ -949,6 +949,7 @@ li {
 .image-middle {
   height: 100%;
   width: 546px;
+  border: 5px red solid;
 }
 
 .best-deal .image-middle img {

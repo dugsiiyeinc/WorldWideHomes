@@ -698,7 +698,7 @@ footer>p {
   margin-inline: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .video-content .video-frame {
     width: 95%;
   }
@@ -808,7 +808,7 @@ a {
   top: -25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -851,7 +851,7 @@ button {
   border: none;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 992px) {
   .Allabuttons {
     position: static;
     justify-content: center;
@@ -875,7 +875,7 @@ button {
   }
 }
 
-@media (max-width: 899px) {
+@media (max-width: 992px) {
   .best-deal .container-all-section {
     display: flex;
     flex-direction: column;
@@ -1007,7 +1007,7 @@ a {
 
 /* responsive */
 
-@media (max-width: 899px) {
+@media (max-width: 992px) {
   .second-part-best-deal {
     margin: 5px;
     padding: 15px;
@@ -1033,7 +1033,7 @@ a {
   }
 }
 
-* Page Heading */
+/* Page Heading */
 .page-heading {
     background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg");
     background-position: center bottom;
@@ -1233,7 +1233,7 @@ b, strong {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .info-largescreen{
         display: none;
     }
@@ -1249,16 +1249,20 @@ b, strong {
         grid-template-columns: 1fr;
         margin-left: 10px;
         margin-right: 10px;
+        
          
     }
     .main-image img{
         width: 100%;
+        
+      
     }
 
     .main-content{
         width: 100%;
         margin-left: 10px;
         margin-right: 10x;
+        
     }
 
     .useful-links {
@@ -1273,6 +1277,7 @@ b, strong {
         display: block;
         margin-left: 10px;
         margin-right: 10px;
+         
     }
     
  }
@@ -1287,6 +1292,7 @@ b, strong {
     margin-top: 120px;
     width: 100%;
     position: relative;
+    
   }
   
   .Allabuttons {
@@ -1317,7 +1323,7 @@ b, strong {
     border: none;
   }
   
-  @media (max-width: 899px) {
+  @media (max-width: 992px) {
     .Allabuttons {
       position: static;
       justify-content: center;
@@ -1341,7 +1347,7 @@ b, strong {
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .best-deal .container-all-section {
       display: flex;
       flex-direction: column;
@@ -1473,15 +1479,19 @@ b, strong {
   
   /* responsive */
   
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .second-part-best-deal {
       margin: 5px;
       padding: 15px;
       width: 100%;
+      
+      margin-inline: auto;
     }
   
     .info-table {
       width: 100%;
+       
+      margin-inline: auto;
     }
   
     .best-deal .info-table ul li span {
@@ -1491,11 +1501,22 @@ b, strong {
     .best-deal .info-part {
       text-align: left;
       width: 100%;
+      
     }
   
     .image-middle {
       margin: 5px;
       padding: 15px;
+      
+      width: 100%;
+      
+      
+      
+    }
+    .image-middle img{
+      width: 100% !important;
+       
+     
     }
   }
   

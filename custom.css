@@ -1265,12 +1265,24 @@ strong {
   position: relative;
 }
 
+
+/* start stylingka qaybta properties  */
+
+.herr {
+  background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+
 .Allabuttons {
   position: absolute;
   gap: 30px;
   display: flex;
   top: 190px;
   right: 54px;
+
 }
 
 .nav-link.active {

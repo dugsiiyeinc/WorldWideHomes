@@ -1593,6 +1593,7 @@ strong {
     text-transform: capitalize;
     margin-top: 20px;
     line-height: 56px;
+    
   }
 
   .body {
@@ -1916,6 +1917,7 @@ a {
   text-transform: capitalize;
   margin-top: 20px;
   line-height: 56px;
+  margin-block: 70px;
 }
 
 
@@ -2094,6 +2096,13 @@ li {
   /* ending part two tyling */
 
   /* responsive part */
+  @media (max-width: 999px){
+    .body {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  }
   @media (max-width: 768px) {
     .container {
       max-width: 768px;

@@ -65,7 +65,7 @@ The WorldWideHomes project uses the following technologies:
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactivity.
 - **Git & GitHub**: For version control and collaboration.
-- **Other Tools**: google font : Poppins. font awesome . vs code .......💚💛✌️.
+- **Other Tools**: google font : Poppins. font awesome . vs code ........💚💛✌️.
 
 ## Setup and Installation
 

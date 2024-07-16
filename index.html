@@ -1,522 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WorldWideHomes</title>
-    <link rel="stylesheet" href="custom.css" />
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorldWideHomes</title>
+  <link rel="stylesheet" href="custom.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
 
-  <body>
-    <header>
-      <section class="sub-nav">
-        <div class="container">
-          <div class="flex-container">
-            <div class="address">
-              <div class="email-icon">
-                <i class="fa-solid fa-envelope"></i>
-                <p>info@company.com</p>
-              </div>
-              <span></span>
-              <div class="address-icon">
-                <i class="fa-solid fa-map"></i>
-                <p>Sunny Isles Beach, FL 33160</p>
-              </div>
+<body>
+  <header>
+    <section class="sub-nav">
+      <div class="container">
+        <div class="flex-container">
+          <div class="address">
+            <div class="email-icon">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@company.com</p>
             </div>
-            <div class="social-links">
-              <a href="#facebook"> <i class="fa-brands fa-facebook"></i></a>
-              <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#instagram"> <i class="fa-brands fa-instagram"></i></a>
+            <span></span>
+            <div class="address-icon">
+              <i class="fa-solid fa-map"></i>
+              <p>Sunny Isles Beach, FL 33160</p>
             </div>
+          </div>
+          <div class="social-links">
+            <a href="#facebook"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#instagram"> <i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="site-navigation nav">
-        <div class="container">
-          <div class="desktop-navigation">
-            <a href="#Villa" class="logo">VILLA</a>
-            <nav>
-              <ul>
-                <li><a href="#home" class="active">home</a></li>
-                <li><a href="#properties">properties</a></li>
-                <li><a href="#property">property details</a></li>
-                <li><a href="./contact.html">contact us</a></li>
-                <li>
-                  <a href="#schedule" id="btn-schedule">
-                    <i class="fa-solid fa-calendar"></i>
-                    <span> schedule visit</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="hamburgger">
-            <!-- <i class="fa-solid fa-bars-staggered" data-visible="true"></i> -->
-            <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
-
-            <i class="fa-solid fa-xmark" data-visible="false"></i>
-          </div>
-          <!-- navigation -->
-          <nav class="navigation" data-visible="false">
+    <section class="site-navigation nav">
+      <div class="container">
+        <div class="desktop-navigation">
+          <a href="#Villa" class="logo">VILLA</a>
+          <nav>
             <ul>
               <li><a href="#home" class="active">home</a></li>
               <li><a href="#properties">properties</a></li>
               <li><a href="#property">property details</a></li>
-              <li><a href="#contact">contact us</a></li>
+              <li><a href="./contact.html">contact us</a></li>
+              <li>
+                <a href="#schedule" id="btn-schedule">
+                  <i class="fa-solid fa-calendar"></i>
+                  <span> schedule visit</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
-      </section>
-    </header>
+        <div class="hamburgger">
+          <!-- <i class="fa-solid fa-bars-staggered" data-visible="true"></i> -->
+          <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
 
-    <section class="hero-section">
-      <div class="banner-container">
-        <div class="container">
-          <div class="banner" data-index="0">
-            <img src="/image/banner-01.jpg" alt="Banner-1" />
-            <h1>toronto <span>canada</span></h1>
-            <p>hurry! get the best villa for you</p>
-          </div>
-          <div class="banner" data-index="1">
-            <img src="/image/banner-02.jpg" alt="Banner-2" />
-            <h1>Melbourne, <span>Australia</span></h1>
-            <p>Be Quick! Get the best villa in town</p>
-          </div>
-          <div class="banner" data-index="2">
-            <img src="/image/banner-03.jpg" alt="Banner-3" />
-            <h1>Miami, <span>South Florida</span></h1>
-            <p>Act Now! Get the highest level penthouse</p>
-          </div>
+          <i class="fa-solid fa-xmark" data-visible="false"></i>
         </div>
-        <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
-        <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+        <!-- navigation -->
+        <nav class="navigation" data-visible="false">
+          <ul>
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#properties">properties</a></li>
+            <li><a href="#property">property details</a></li>
+            <li><a href="#contact">contact us</a></li>
+          </ul>
+        </nav>
       </div>
     </section>
-    <section class="featured">
+  </header>
+
+  <section class="hero-section">
+    <div class="banner-container">
       <div class="container">
-        <div class="grid-container">
-          <div class="grid-item">
-            <div class="parent">
-              <img src="/image/featured.jpg" alt="feature-img"
-                class="featured-img" />
-              <a href="#">
-                <img src="/image/featured-icon.png" class="icon"
-                  alt="featured-icon" />
-              </a>
-            </div>
+        <div class="banner" data-index="0">
+          <img src="/image/banner-01.jpg" alt="Banner-1" />
+          <h1>toronto <span>canada</span></h1>
+          <p>hurry! get the best villa for you</p>
+        </div>
+        <div class="banner" data-index="1">
+          <img src="/image/banner-02.jpg" alt="Banner-2" />
+          <h1>Melbourne, <span>Australia</span></h1>
+          <p>Be Quick! Get the best villa in town</p>
+        </div>
+        <div class="banner" data-index="2">
+          <img src="/image/banner-03.jpg" alt="Banner-3" />
+          <h1>Miami, <span>South Florida</span></h1>
+          <p>Act Now! Get the highest level penthouse</p>
+        </div>
+      </div>
+      <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+      <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </section>
+  <section class="featured">
+    <div class="container">
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="parent">
+            <img src="/image/featured.jpg" alt="feature-img" class="featured-img" />
+            <a href="#">
+              <img src="/image/featured-icon.png" class="icon" alt="featured-icon" />
+            </a>
           </div>
-          <div class="grid-item" id="slipping">
-            <h1>FEATURED</h1>
-            <p class="description">Best Apartment & Sea View</p>
-            <div class="faqs-section">
-              <div class="accordion-item">
-                <div class="question" id="q-one">
-                  <h1>Best useful links ?</h1>
-                </div>
-                <div class="answer">
-                  <p>
-                    Get <b>the best villa</b> website template in HTML CSS and
-                    Bootstrap for your business. TemplateMo provides you the
-                    <a href="#" style="color: #0d6efd">best free CSS
-                      templates</a>
-                    in the world. Please tell your friends about it.
-                  </p>
-                </div>
+        </div>
+        <div class="grid-item" id="slipping">
+          <h1>FEATURED</h1>
+          <p class="description">Best Apartment & Sea View</p>
+          <div class="faqs-section">
+            <div class="accordion-item">
+              <div class="question" id="q-one">
+                <h1>Best useful links ?</h1>
               </div>
-              <div class="accordion-item">
-                <div class="question">
-                  <h1>Best useful links ?</h1>
-                </div>
-                <div class="answer">
-                  <p>
-                    Dolor , <b> almesit amet</b> consectetur adipiscing elit,
-                    sed doesn't eiusmod tempor incididunt ut labore consectetur
-                    <a href="#"
-                      style="color: #d63384; font-size: 0.875em">adipiscing</a>
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <div class="question">
-                  <h1>Best useful links ?</h1>
-                </div>
-                <div class="answer">
-                  <p>
-                    Dolor , <b> almesit amet</b> consectetur adipiscing elit,
-                    sed doesn't eiusmod tempor incididunt ut labore consectetur
-                    <a href="#"
-                      style="color: #d63384; font-size: 0.875em">adipiscing</a>
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                </div>
+              <div class="answer">
+                <p>
+                  Get <b>the best villa</b> website template in HTML CSS and
+                  Bootstrap for your business. TemplateMo provides you the
+                  <a href="#" style="color: #0d6efd">best free CSS
+                    templates</a>
+                  in the world. Please tell your friends about it.
+                </p>
               </div>
             </div>
+            <div class="accordion-item">
+              <div class="question">
+                <h1>Best useful links ?</h1>
+              </div>
+              <div class="answer">
+                <p>
+                  Dolor , <b> almesit amet</b> consectetur adipiscing elit,
+                  sed doesn't eiusmod tempor incididunt ut labore consectetur
+                  <a href="#" style="color: #d63384; font-size: 0.875em">adipiscing</a>
+                  elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="question">
+                <h1>Best useful links ?</h1>
+              </div>
+              <div class="answer">
+                <p>
+                  Dolor , <b> almesit amet</b> consectetur adipiscing elit,
+                  sed doesn't eiusmod tempor incididunt ut labore consectetur
+                  <a href="#" style="color: #d63384; font-size: 0.875em">adipiscing</a>
+                  elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="grid-item">
-            <div class="info-table">
-              <div class="box">
-                <img src="/image/info-icon-01.png" alt="info-icon" />
-                <div class="content">
-                  <h1>250 m2</h1>
-                  <p>total flat space</p>
-                </div>
+        </div>
+        <div class="grid-item">
+          <div class="info-table">
+            <div class="box">
+              <img src="/image/info-icon-01.png" alt="info-icon" />
+              <div class="content">
+                <h1>250 m2</h1>
+                <p>total flat space</p>
               </div>
-              <div class="box">
-                <img src="/image/info-icon-02.png" alt="info-icon" />
-                <div class="content">
-                  <h1>contact</h1>
-                  <p>contact ready</p>
-                </div>
+            </div>
+            <div class="box">
+              <img src="/image/info-icon-02.png" alt="info-icon" />
+              <div class="content">
+                <h1>contact</h1>
+                <p>contact ready</p>
               </div>
+            </div>
 
-              <div class="box">
-                <img src="/image/info-icon-04.png" alt="info-icon" />
-                <div class="content">
-                  <h1>payment</h1>
-                  <p>payment process</p>
-                </div>
+            <div class="box">
+              <img src="/image/info-icon-04.png" alt="info-icon" />
+              <div class="content">
+                <h1>payment</h1>
+                <p>payment process</p>
               </div>
-              <div class="box">
-                <img src="/image/info-icon-03.png" alt="info-icon" />
+            </div>
+            <div class="box">
+              <img src="/image/info-icon-03.png" alt="info-icon" />
 
-                <div class="content">
-                  <h1>safety</h1>
-                  <p>24/7 under control</p>
-                </div>
+              <div class="content">
+                <h1>safety</h1>
+                <p>24/7 under control</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Member2 Section -->
+  <!-- Member2 Section -->
 
 
   <div class="container-best-deal">
     <!-- Video view Section 1  -->
     <article class="video">
-     <div class="section-heading text-center">
-          <h6>| Video View</h6>
-          <h2>Get Closer View <br> & Different <br> Feeling</h2>
-        </div>
+      <div class="section-heading text-center">
+        <h6>| Video View</h6>
+        <h2>Get Closer View <br> & Different <br> Feeling</h2>
+      </div>
 
-      </article>
-      <!-- Video view Section 2 -->
-      <div class="video-content">
-        <div class="container-all-section">
-          <div class="video-frame">
-            <img
-              src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg"
-              alt>
-            <a href="https://youtube.com" target="_blank"><i
-                class="fa fa-play"></i></a>
-          </div>
-
+    </article>
+    <!-- Video view Section 2 -->
+    <div class="video-content">
+      <div class="container-all-section">
+        <div class="video-frame">
+          <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg" alt>
+          <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
         </div>
 
       </div>
+
     </div>
-    <!-- fun fact section -->
-    <div class="fun-facts container-all-section">
-      <div class="grid1">
-        <div class="grid-item">
-          <div class="counter">
-            <h2 class="timer count-title count-number">34</h2>
-            <p class="count-text">Buildings<br>Finished Now</p>
-          </div>
+  </div>
+  <!-- fun fact section -->
+  <div class="fun-facts container-all-section">
+    <div class="grid1">
+      <div class="grid-item">
+        <div class="counter">
+          <h2 class="timer count-title count-number">34</h2>
+          <p class="count-text">Buildings<br>Finished Now</p>
         </div>
-        <div class="grid-item">
-          <div class="counter">
-            <h2 class="timer count-title count-number">12</h2>
-            <p class="count-text">Years<br>Experience</p>
-          </div>
+      </div>
+      <div class="grid-item">
+        <div class="counter">
+          <h2 class="timer count-title count-number">12</h2>
+          <p class="count-text">Years<br>Experience</p>
         </div>
-        <div class="grid-item">
-          <div class="counter">
-            <h2 class="timer count-title count-number">24</h2>
-            <p class="count-text">Awwards<br>Won 2023</p>
-          </div>
+      </div>
+      <div class="grid-item">
+        <div class="counter">
+          <h2 class="timer count-title count-number">24</h2>
+          <p class="count-text">Awwards<br>Won 2023</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Best Deal Section -->
-    <section class="best-deal  ">
-      <div class="container-all-section  ">
-        <div class="section-heading sec1">
-          <h6>| Best Deal </h6>
-          <h2> Find Your Best <br> Deal Right Now!</h2>
+  <!-- Best Deal Section -->
+  <section class="best-deal  ">
+    <div class="container-all-section  ">
+      <div class="section-heading sec1">
+        <h6>| Best Deal </h6>
+        <h2> Find Your Best <br> Deal Right Now!</h2>
 
-          <div class="Allabuttons">
-            <button class="nav-link active">Appartment</button>
-            <button>Appartment</button>
-            <button>Appartment</button>
-          </div>
+        <div class="Allabuttons">
+          <button class="nav-link active">Appartment</button>
+          <button>Appartment</button>
+          <button>Appartment</button>
         </div>
+      </div>
+
+    </div>
+    <!-- best deal section second part -->
+    <div class="second-part-best-deal container-all-section">
+      <div class="info-table1">
+        <ul>
+          <li>Total Flat Space <span>185 m2</span></li>
+          <li>Floor number <span>26th</span></li>
+          <li>Number of rooms <span>4</span></li>
+          <li>Parking Available <span>Yes</span></li>
+          <li>Payment Process <span>Bank</span></li>
+        </ul>
+      </div>
+
+      <div class="image-middle">
+
+        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/deal-01.jpg" alt>
 
       </div>
-      <!-- best deal section second part -->
-      <div class="second-part-best-deal container-all-section">
-        <div class="info-table1">
-          <ul>
-            <li>Total Flat Space <span>185 m2</span></li>
-            <li>Floor number <span>26th</span></li>
-            <li>Number of rooms <span>4</span></li>
-            <li>Parking Available <span>Yes</span></li>
-            <li>Payment Process <span>Bank</span></li>
-          </ul>
-        </div>
 
-        <div class="image-middle">
-
-          <img
-            src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/deal-01.jpg"
-            alt>
-
-        </div>
-
-        <div class="info-part">
-          <h4>Extra Info About Property</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
-            tempor pack incididunt ut labore et
-            dolore magna aliqua quised ipsum suspendisse.
-            <br><br>When you need free CSS templates, you can simply type
-            TemplateMo in any search engine website. In
-            addition, you can type TemplateMo Portfolio, TemplateMo One Page
-            Layouts, etc.
-          </p>
-          <div class="icon-button">
-            <a href="property-details.html"><i class="fa fa-calendar"></i>
-              Schedule a visit</a>
-          </div>
-
+      <div class="info-part">
+        <h4>Extra Info About Property</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod
+          tempor pack incididunt ut labore et
+          dolore magna aliqua quised ipsum suspendisse.
+          <br><br>When you need free CSS templates, you can simply type
+          TemplateMo in any search engine website. In
+          addition, you can type TemplateMo Portfolio, TemplateMo One Page
+          Layouts, etc.
+        </p>
+        <div class="icon-button">
+          <a href="property-details.html"><i class="fa fa-calendar"></i>
+            Schedule a visit</a>
         </div>
 
       </div>
 
-    </section>
+    </div>
 
-    <!-- properts -->
-    <div class="nextt container">
-      <div class="head">
-        <h6>| Properties</h6>
-        <h2>We Provide <br> The Best Property <br> You Like</h2>
+  </section>
+
+  <!-- properts -->
+  <div class="nextt container">
+    <div class="head">
+      <h6>| Properties</h6>
+      <h2>We Provide <br> The Best Property <br> You Like</h2>
+    </div>
+    <div class="body">
+      <!-- 1st box -->
+      <div class="part">
+        <a href="#">
+          <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category"> Luxury Villa</span>
+        <h6>$2.264.000</h6>
+        <h4>
+          <a href="#">18 New Street Miami, OR 97219</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>8</span></li>
+          <li>Besroms: <span>8</span></li>
+          <li>Area: <span>545m2</span></li>
+          <li>Floor: <span>3</span></li>
+          <li>Parking: <span>6 spots</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
+        </div>
+
       </div>
-      <div class="body">
-        <!-- 1st box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-01.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category"> Luxury Villa</span>
-          <h6>$2.264.000</h6>
-          <h4>
-            <a href="#">18 New Street Miami, OR 97219</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>8</span></li>
-            <li>Besroms: <span>8</span></li>
-            <li>Area: <span>545m2</span></li>
-            <li>Floor: <span>3</span></li>
-            <li>Parking: <span>6 spots</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
-
+      <!-- 2nd box -->
+      <div class="part">
+        <a href="#">
+          <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-02.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category"> Luxury Villa</span>
+        <h6>$1.180.000</h6>
+        <h4>
+          <a href="#">54 Mid Street Florida, OR 27001</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>6</span></li>
+          <li>Besroms: <span>5</span></li>
+          <li>Area: <span>450m2</span></li>
+          <li>Floor: <span>3</span></li>
+          <li>Parking: <span>8 spots</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
         </div>
-        <!-- 2nd box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-02.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category"> Luxury Villa</span>
-          <h6>$1.180.000</h6>
-          <h4>
-            <a href="#">54 Mid Street Florida, OR 27001</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>6</span></li>
-            <li>Besroms: <span>5</span></li>
-            <li>Area: <span>450m2</span></li>
-            <li>Floor: <span>3</span></li>
-            <li>Parking: <span>8 spots</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
 
+      </div>
+      <!-- 3rd box -->
+      <div class="part">
+        <a href="#">
+          <img src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-03.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category"> Luxury Villa</span>
+        <h6>$1.460.000</h6>
+        <h4>
+          <a href="#">26 Old Street Miami, OR 38540</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>5</span></li>
+          <li>Besroms: <span>4</span></li>
+          <li>Area: <span>225m2</span></li>
+          <li>Floor: <span>3</span></li>
+          <li>Parking: <span>10 spots</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
         </div>
-        <!-- 3rd box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-03.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category"> Luxury Villa</span>
-          <h6>$1.460.000</h6>
-          <h4>
-            <a href="#">26 Old Street Miami, OR 38540</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>5</span></li>
-            <li>Besroms: <span>4</span></li>
-            <li>Area: <span>225m2</span></li>
-            <li>Floor: <span>3</span></li>
-            <li>Parking: <span>10 spots</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
 
+      </div>
+      <!-- 4th box -->
+      <div class="part">
+        <a href="#">
+          <img src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-04.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category"> Apartment</span>
+        <h6>$584.500</h6>
+        <h4>
+          <a href="#">12 New Street Miami, OR 12650</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>4</span></li>
+          <li>Besroms: <span>2</span></li>
+          <li>Area: <span> 125m2</span></li>
+          <li>Floor: <span>25th</span></li>
+          <li>Parking: <span>2 cars</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
         </div>
-        <!-- 4th box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-04.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category"> Apartment</span>
-          <h6>$584.500</h6>
-          <h4>
-            <a href="#">12 New Street Miami, OR 12650</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>4</span></li>
-            <li>Besroms: <span>2</span></li>
-            <li>Area: <span> 125m2</span></li>
-            <li>Floor: <span>25th</span></li>
-            <li>Parking: <span>2 cars</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
 
+      </div>
+      <!-- 5th box -->
+      <div class="part">
+        <a href="#">
+          <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-05.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category">Penthouse</span>
+        <h6>$925.600</h6>
+        <h4>
+          <a href="#">34 Beach Street Miami, OR 42680</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>4</span></li>
+          <li>Besroms: <span>4</span></li>
+          <li>Area: <span> 180m2</span></li>
+          <li>Floor: <span>38th</span></li>
+          <li>Parking: <span>2 cars</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
         </div>
-        <!-- 5th box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-05.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category">Penthouse</span>
-          <h6>$925.600</h6>
-          <h4>
-            <a href="#">34 Beach Street Miami, OR 42680</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>4</span></li>
-            <li>Besroms: <span>4</span></li>
-            <li>Area: <span> 180m2</span></li>
-            <li>Floor: <span>38th</span></li>
-            <li>Parking: <span>2 cars</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
 
-        </div>
-        <!-- 6th box -->
-        <div class="part">
-          <a href="#">
-            <img
-              src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-06.jpg"
-              alt="sawirka 1aad">
-          </a>
-          <span class="category"> Modern Condo</span>
-          <h6>$450.000</h6>
-          <h4>
-            <a href="#">22 New Street Portland, OR 16540</a>
-          </h4>
-          <ul>
-            <li>Besroms: <span>3</span></li>
-            <li>Besroms: <span>2</span></li>
-            <li>Area: <span>165m2</span></li>
-            <li>Floor: <span>26th</span></li>
-            <li>Parking: <span>3 cars</span></li>
-          </ul>
-          <div class="main-button">
-            <a href="#">Schedule a visit</a>
-          </div>
+      </div>
+      <!-- 6th box -->
+      <div class="part">
+        <a href="#">
+          <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/property-06.jpg"
+            alt="sawirka 1aad">
+        </a>
+        <span class="category"> Modern Condo</span>
+        <h6>$450.000</h6>
+        <h4>
+          <a href="#">22 New Street Portland, OR 16540</a>
+        </h4>
+        <ul>
+          <li>Besroms: <span>3</span></li>
+          <li>Besroms: <span>2</span></li>
+          <li>Area: <span>165m2</span></li>
+          <li>Floor: <span>26th</span></li>
+          <li>Parking: <span>3 cars</span></li>
+        </ul>
+        <div class="main-button">
+          <a href="#">Schedule a visit</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- contact us -->
+  <!-- contact us -->
 
-    <div class="contact">
-      <div class="head">
-        <h6>| Contact Us</h6>
-        <h2>Get In Touch <br> With Our Agents</h2>
-      </div>
+  <div class="contact">
+    <div class="head">
+      <h6>| Contact Us</h6>
+      <h2>Get In Touch <br> With Our Agents</h2>
+    </div>
 
-      <div class="main container">
-        <!-- map -->
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d251956.82806258352!2d42.804838399999994!3d9.3487104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1719978957497!5m2!1sen!2set"
-            width="600" height="450" style="border:0;" allowfullscreen
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="main container">
+      <!-- map -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d251956.82806258352!2d42.804838399999994!3d9.3487104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1719978957497!5m2!1sen!2set"
+          width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-          <div class="botoms">
-            <div class="phone item">
-              <img
-                src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/phone-icon.png"
-                alt="sawirka buttomka 1aad">
-              <h6>
-                010-020-0340
-                <span>Phone NUmber</span>
-              </h6>
-            </div>
-            <div class="info item">
-              <img
-                src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/email-icon.png"
-                alt="sawirka buttomka 2aad">
-              <h6>
-                info@villa.co
-                <span>Business Email</span>
-              </h6>
-            </div>
+        <div class="botoms">
+          <div class="phone item">
+            <img src="	https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/phone-icon.png"
+              alt="sawirka buttomka 1aad">
+            <h6>
+              010-020-0340
+              <span>Phone NUmber</span>
+            </h6>
+          </div>
+          <div class="info item">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/email-icon.png"
+              alt="sawirka buttomka 2aad">
+            <h6>
+              info@villa.co
+              <span>Business Email</span>
+            </h6>
           </div>
         </div>
+      </div>
 
-        <!-- contact us form -->
-        <div class="form">
-          <form id="contacts">
-            <label class="special">Full Name</label>
-            <input type="text" placeholder="Your Name" id="username">
-            <label>Email Address</label>
-            <input type="text" placeholder="Your E-mail" id="email">
-            <label>Subject</label>
-            <input type="text" placeholder="subject" id="subject">
-            <label>Message</label>
-            <textarea placeholder="Your Message"></textarea>
-          </form>
-          <div class="main-button btn">
-            <a href="#">Send Message</a>
-          </div>
+      <!-- contact us form -->
+      <div class="form">
+        <form id="contacts">
+          <label class="special">Full Name</label>
+          <input type="text" placeholder="Your Name" id="username">
+          <label>Email Address</label>
+          <input type="text" placeholder="Your E-mail" id="email">
+          <label>Subject</label>
+          <input type="text" placeholder="subject" id="subject">
+          <label>Message</label>
+          <textarea placeholder="Your Message"></textarea>
+        </form>
+        <div class="main-button btn">
+          <a href="#">Send Message</a>
         </div>
       </div>
     </div>
-    <!--End Member3 -Abdinour- section -->
+  </div>
+  <!--End Member3 -Abdinour- section -->
 
-    <script src="./custom.js"></script>
-  </body>
+  <footer>
+    <p>copyright © 2024 WorldWideHomes, all rights reserved. redesigned: by team D @Dugsiige.org 💚 </p>
+  </footer>
+  <script src="./custom.js"></script>
+</body>
 
 </html>

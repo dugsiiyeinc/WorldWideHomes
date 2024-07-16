@@ -2102,6 +2102,52 @@ li {
       grid-template-columns: repeat(2, 1fr);
       gap: 30px;
     }
+    .main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      /* margin-bottom: 10px; */
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .map iframe{
+      width: 80%;
+    }
+    .botoms {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      /* margin: 15px 10px; */
+      margin-inline: auto;
+      justify-content: center;
+    }
+    .botoms  .item {
+      display: flex;
+      gap: 2px;
+    }
+    .phone {
+      margin-top: 35px;
+      width: 100%;
+      align-items: center;
+    }
+    .botoms .info{
+      margin-top: 20px;
+      width: 100%;
+      align-items: center;
+    }
+
+    .form{
+      width: 80%;
+      margin-inline: auto;
+      
+    }
+    .form #contacts label {
+      margin-left: -596px;
+
+    }
+   
+
   }
   @media (max-width: 768px) {
     .container {

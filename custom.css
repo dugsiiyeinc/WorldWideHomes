@@ -840,7 +840,7 @@ a {
   color: #fff;
 }
 
-button {
+.Allabuttons .button {
   font-size: 16px;
   font-weight: 500;
   background-color: #1e1e1e !important;
@@ -863,7 +863,7 @@ button {
     gap: 10px;
   }
 
-  .button {
+  .Allabuttons .button {
     font-size: 10px;
     font-weight: 500;
     background-color: #1e1e1e !important;
@@ -978,7 +978,7 @@ li {
   margin-bottom: 30px;
 }
 
-p {
+.best-deal .info-part p {
   font-size: 14px;
   line-height: 28px;
   color: #4a4a4a;
@@ -1454,7 +1454,7 @@ b, strong {
     margin-bottom: 30px;
   }
   
-  p {
+  .best-deal .info-part p {
     font-size: 14px;
     line-height: 28px;
     color: #4a4a4a;

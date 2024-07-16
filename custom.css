@@ -766,7 +766,7 @@ a {
   
 }
 
-.grid-item {
+.grid1 .grid-item {
   display: flex;
   justify-content: center;
 }
@@ -1325,7 +1325,7 @@ b, strong {
     color: #fff;
   }
   
-  button {
+  .Allabuttons button {
     font-size: 16px;
     font-weight: 500;
     background-color: #1e1e1e !important;

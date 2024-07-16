@@ -307,7 +307,7 @@ button.next {
 
 /* featured section */
 .featured {
-  margin-top: 120px;
+  margin-block: 120px;
 }
 
 .featured .container .grid-container {

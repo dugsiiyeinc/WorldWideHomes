@@ -918,9 +918,7 @@ button {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 10px 30px;
-  height: max-content;
- 
-  max-width: max-content;
+   
    
     
   
@@ -1026,10 +1024,13 @@ a {
     margin: 5px;
     padding: 15px;
     width: 100%;
+     
   }
 
   .info-table1 {
     width: 100%;
+    float: left;
+    
   }
 
   .best-deal .info-table1 ul li span {
@@ -1045,6 +1046,7 @@ a {
     margin: 5px;
     padding: 15px;
   }
+  
 }
 
 /* Page Heading */
@@ -1296,6 +1298,7 @@ b, strong {
         display: block;
         margin-left: 10px;
         margin-right: 10px;
+        
          
     }
     
@@ -1405,6 +1408,7 @@ b, strong {
     padding: 10px 30px;
     height: max-content;
     /* margin-left: -13px; */
+    
   }
   
   ul {

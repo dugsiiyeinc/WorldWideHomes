@@ -1043,14 +1043,14 @@ a {
 
 /* Page Heading */
 .page-heading {
+
   background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 110px 0px;
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
+ 
 }
 
 .Page-heading-container {
@@ -1060,7 +1060,7 @@ a {
 }
 
 .page-heading-text {
-  margin-top: 150px;
+  margin-top: 40px;
 }
 
 .page-heading-text span {
@@ -1090,10 +1090,24 @@ a {
     padding: 80px 0px;
     margin-left: 5px;
     margin-right: 5px;
+
+    background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/page-heading-bg.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+    
+
   }
 
+
   .page-heading-text {
+
     margin-top: 50px;
+
+    margin-top: 40px;
+
   }
 }
 
@@ -1292,28 +1306,7 @@ strong {
   border: none;
 }
 
-@media (max-width: 992px) {
-  .Allabuttons {
-    position: static;
-    justify-content: center;
-    margin-top: 30px;
-    gap: 10px;
-  }
-
-  .button {
-    font-size: 10px;
-    font-weight: 500;
-    background-color: #1e1e1e !important;
-    border-radius: 5px;
-    height: 50px;
-    line-height: 50px;
-    display: inline-block;
-    padding: 0px 5px;
-    color: #fff;
-    margin: 0;
-    outline: none;
-    border: none;
-  }
+ 
  
   
   @media (max-width: 992px) {

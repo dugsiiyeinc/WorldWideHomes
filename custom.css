@@ -1880,10 +1880,7 @@ a {
   transition: all .3s;
 }
 
-.container {
-  max-width: 1100px;
-  margin-inline: auto;
-}
+
 
 
 .next {

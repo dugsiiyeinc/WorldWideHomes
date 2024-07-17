@@ -1435,7 +1435,7 @@ strong {
       align-items: center;
       margin-top: 120px;
     }
-
+  }
 /* best deal section second part */
 
 .second-part-best-deal {
@@ -1600,7 +1600,7 @@ li {
     .second-part-best-deal {
       margin: 5px;
       padding: 15px;
-      width: 100%;
+      width: 100%;}
 
 .best-deal .info-part p {
   font-size: 14px;
@@ -1641,6 +1641,7 @@ a {
   margin-right: 15px;
   margin-left: -1px;
 }
+  }
 
 /* responsive */
 

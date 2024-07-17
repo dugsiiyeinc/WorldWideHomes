@@ -1551,8 +1551,13 @@ li {
     .second-part-best-deal {
       margin: 5px;
       padding: 15px;
+<<<<<<< HEAD
       width: 100%;
     }
+=======
+      width: 100%;}
+
+>>>>>>> f9832fff672a1915fe9cf7f0502ec3cf6126bae2
 .best-deal .info-part p {
   font-size: 14px;
   line-height: 28px;
@@ -1592,6 +1597,7 @@ a {
   margin-right: 15px;
   margin-left: -1px;
 }
+  }
 
   }
 

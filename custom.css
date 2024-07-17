@@ -680,6 +680,7 @@ footer > p {
   text-transform: capitalize;
   margin-top: 20px;
   line-height: 56px;
+  margin-bottom: 40px;
 }
 
 .text-center {
@@ -687,7 +688,11 @@ footer > p {
 }
 
 .section-heading {
+   
   margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 900px) {
@@ -706,7 +711,7 @@ footer > p {
   margin-inline: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .video-content .video-frame {
     width: 95%;
   }
@@ -816,7 +821,7 @@ a {
   top: -25px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .grid1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -824,20 +829,13 @@ a {
 
 /*  best deal section */
 .best-deal {
-  background-color: rgb(250, 250, 250);
-  padding-top: 100px;
+   
   margin-top: 120px;
-  width: 100%;
-  position: relative;
+  
+   
 }
 
-.Allabuttons {
-  position: absolute;
-  gap: 30px;
-  display: flex;
-  top: 190px;
-  right: 54px;
-}
+ 
 
 .nav-link.active {
   background-color: #f35525 !important;
@@ -859,12 +857,12 @@ a {
   border: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .Allabuttons {
     position: static;
     justify-content: center;
     margin-top: 30px;
-    gap: 10px;
+    gap: 25px;
   }
 
   .Allabuttons .button {
@@ -883,7 +881,7 @@ a {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .best-deal .container-all-section {
     display: flex;
     flex-direction: column;
@@ -895,6 +893,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 120px;
   }
 
   .best-deal .Allabuttons {
@@ -937,7 +936,7 @@ li {
   display: block;
   margin-bottom: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #eee;
+ 
   text-align: left;
   font-size: 15px;
   color: #aaa;
@@ -953,16 +952,8 @@ li {
 
 /* second part image  middle */
 
-.image-middle {
-  height: 100%;
-  width: 546px;
-}
+ 
 
-.best-deal .image-middle img {
-  padding: 0px 25px;
-  width: 100%;
-  overflow: hidden;
-}
 
 .best-deal .info-part h4 {
   font-size: 17px;
@@ -1011,7 +1002,7 @@ a {
 
 /* responsive */
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .second-part-best-deal {
     margin: 5px;
     padding: 15px;
@@ -1032,10 +1023,7 @@ a {
     width: 100%;
   }
 
-  .image-middle {
-    margin: 5px;
-    padding: 15px;
-  }
+   
 }
 
 /* Page Heading  */
@@ -1170,7 +1158,9 @@ a {
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
+  
 }
+
 
 .main-content .p {
   font-size: 14px;
@@ -1219,7 +1209,7 @@ strong {
   display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1115px) {
   .info-largescreen {
     display: none;
   }
@@ -1261,12 +1251,23 @@ strong {
 /* best deal section */
 
 .best-deal {
-  background-color: rgb(250, 250, 250);
-  padding-top: 100px;
+   
   margin-top: 120px;
-  width: 100%;
-  position: relative;
+  
+  
 }
+.image-middle{
+  width: 100%;
+}
+
+ 
+
+
+
+
+
+
+
 
 /* start stylingka qaybta properties  */
 
@@ -1277,6 +1278,7 @@ strong {
   top: 190px;
   right: 54px;
 }
+
 
 .nav-link.active {
   background-color: #f35525 !important;
@@ -1298,13 +1300,69 @@ strong {
   border: none;
 }
 
-@media (max-width: 992px) {
-  .Allabuttons {
-    position: static;
-    justify-content: center;
-    margin-top: 30px;
-    gap: 10px;
+
+
+
+
+  @media (max-width: 1115px) {
+    .Allabuttons {
+      position: static;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 25px;
+    }
+
+    .Allabuttons .button {
+      font-size: 10px;
+      font-weight: 500;
+      background-color: #1e1e1e !important;
+      border-radius: 5px;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+      padding: 0px 5px;
+      color: #fff;
+      margin: 0;
+      outline: none;
+      border: none;
+    }
   }
+
+  @media (max-width: 1115px) {
+    .best-deal .container-all-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .best-deal .section-heading.sec1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 120px;
+    }
+
+    .best-deal .Allabuttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .best-deal .Allabuttons button {
+      margin-bottom: 10px;
+    }
+    .image-middle img{
+      width: 100%;
+    }
+  }
+
+  /* best deal section second part */
+
+  .second-part-best-deal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 
   .Allabuttons .button {
     font-size: 10px;
@@ -1319,15 +1377,18 @@ strong {
     margin: 0;
     outline: none;
     border: none;
+
   }
 }
 
-@media (max-width: 992px) {
-  .best-deal .container-all-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+  .best-deal .info-table1 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+   margin-bottom: 45px;
+    height: max-content;
+     
+
   }
 
   .best-deal .section-heading.sec1 {
@@ -1342,10 +1403,38 @@ strong {
     align-items: center;
   }
 
+
+  .best-deal .info-table1 ul li {
+    display: block;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    
+    text-align: left;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+
   .best-deal .Allabuttons button {
     margin-bottom: 10px;
+
   }
 }
+
+
+  @media (max-width: 1115px) {
+    .best-deal .container-all-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .best-deal .section-heading.sec1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 120px;
+    }
 
 /* best deal section second part */
 
@@ -1354,6 +1443,7 @@ strong {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+
 
 .best-deal .info-table1 {
   border-radius: 10px;
@@ -1405,6 +1495,30 @@ li {
     align-items: center;
   }
 
+
+  .best-deal .info-table1 ul li {
+    display: block;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eee !important;
+    text-align: left;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+  }
+  .best-deal .info-table1 ul li:last-child{
+    border-bottom: none !important;
+  }
+
+
+  .best-deal .info-table1 ul li span {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+    
+    
+  }
+
   .best-deal .Allabuttons button {
     margin-bottom: 10px;
   }
@@ -1412,11 +1526,17 @@ li {
 
 /* best deal section second part */
 
+
 .second-part-best-deal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+
+
+  
+
+  
 
 .best-deal .info-table1 {
   border-radius: 10px;
@@ -1429,6 +1549,7 @@ li {
 ul {
   margin-bottom: 0px;
 }
+
 
 ul,
 li {
@@ -1474,11 +1595,19 @@ li {
   margin-bottom: 30px;
 }
 
+
+  @media (max-width: 1115px) {
+    .second-part-best-deal {
+      margin: 5px;
+      padding: 15px;
+      width: 100%;
+
 .best-deal .info-part p {
   font-size: 14px;
   line-height: 28px;
   color: #4a4a4a;
 }
+
 
 .best-deal .icon-button {
   margin-top: 30px;
@@ -1515,40 +1644,7 @@ a {
 
 /* responsive */
 
-@media (max-width: 992px) {
-  .second-part-best-deal {
-    margin: 5px;
-    padding: 15px;
-    width: 100%;
 
-    margin-inline: auto;
-  }
-
-  .info-table1 {
-    width: 100%;
-
-    margin-inline: auto;
-  }
-
-  .best-deal .info-table1 ul li span {
-    float: right;
-  }
-
-  .best-deal .info-part {
-    text-align: left;
-    width: 100%;
-  }
-
-  .image-middle {
-    margin: 5px;
-    padding: 15px;
-
-    width: 100%;
-  }
-  .image-middle img {
-    width: 100% !important;
-  }
-}
 
 /* End Ayanle's Section */
 

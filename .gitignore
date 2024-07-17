@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-#.anima
-#.vscode
-=======
-*design
+#Ignore design directory
+design
 #Ignore anima directory
 .anima/
 #Ignore vscode directory
 .vscode/
->>>>>>> origin/Member#1

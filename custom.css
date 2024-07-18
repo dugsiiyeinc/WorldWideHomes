@@ -841,7 +841,6 @@ a {
   margin-block: 50px;
 }
 
-.best-deal-section .head .titles {}
 
 .best-deal-section .head .titles>span {
   color: #ee626b;
@@ -1259,7 +1258,7 @@ a {
 .part h6 {
   font-size: 20px;
   color: #f35525;
-
+  float: right;
   margin-top: 30px;
 }
 

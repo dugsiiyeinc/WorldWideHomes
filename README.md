@@ -108,8 +108,7 @@ Follow these steps to get a local copy of the project up and running.
 - **Member :** [Ayanle Osman](https://github.com/ayale3)
 - **Member :** [Abdinour Sonkor](https://github.com/AbdinourSonkor)
 
-
- You can view the live version [here]( [RealState] (https://real-state-lac.vercel.app/) ).
+ You can view the live version [here](https://real-state-lac.vercel.app/) 
 
 
 

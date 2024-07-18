@@ -109,7 +109,7 @@ Follow these steps to get a local copy of the project up and running.
 - **Member :** [Abdinour Sonkor](https://github.com/AbdinourSonkor)
 
 
-
+ You can view the live version [here]([not yet...](https://real-state-lac.vercel.app/)).
 
 
 

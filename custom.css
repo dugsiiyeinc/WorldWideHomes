@@ -762,9 +762,10 @@ a {
   background-color: #ffeee9;
   position: relative;
   border-radius: 10px;
-  width: 270px;
+  width: 303px;
   padding: 20px 0px;
   display: inline-block;
+  text-align: center;
 }
 
 .fun-facts .counter h2,

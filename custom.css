@@ -422,7 +422,7 @@ button.next {
 
 .grid-item .info-table .box {
   display: flex !important;
-  /* width: 300px; */
+  width:240px;
   gap: 28px;
   align-items: center;
   display: block;
@@ -950,7 +950,8 @@ a {
   font-weight: 600;
   margin-bottom: 30px;
 }
-#btn-schedule {
+
+.content #btn-schedule {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -1037,6 +1038,11 @@ a {
   .counter {
     width: 216px;
     padding: 20px;
+}
+.grid-item .info-table .box {
+  display: flex !important;
+  width:initial;
+  justify-content: center;
 }
 }
 
@@ -1321,7 +1327,6 @@ a {
 .part h6 {
   font-size: 20px;
   color: #f35525;
-  float: right;
   margin-top: 30px;
   float: inline-end;
 }

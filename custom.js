@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     answers[0].style.display = 'block';
   }
 
-  questions.forEach((header, index) => {
+  questions.forEach((header) => {
     header.addEventListener('click', () => {
       const content = header.nextElementSibling;
       const isVisible = content.style.display === 'block';

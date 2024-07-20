@@ -901,7 +901,7 @@ a {
   background-color: #f35525 !important;
   color: #fff;
 }
-.allbuttons .content {
+ .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 55px;
@@ -1044,6 +1044,9 @@ a {
   width:initial;
   justify-content: center;
 }
+.content img {
+  margin-top: 45px;
+}
 }
 
 /* single property Section */
@@ -1180,9 +1183,7 @@ strong {
 .info-mobile {
   display: none;
 }
-.content img {
-  margin-top: 45px;
-}
+
 @media (max-width: 1055px) {
   .info-largescreen {
     display: none;

@@ -109,7 +109,7 @@ Follow these steps to get a local copy of the project up and running.
 - **Member :** [Abdinour Sonkor](https://github.com/AbdinourSonkor)
 
 ---
-- You can view the live version [here](https://real-state-lac.vercel.app/) 
+- You can view the live version [here](https://realstate-lilac.vercel.app/) 
 
 - Also the original website you can visit [here](https://templatemo.com/live/templatemo_591_villa_agency)
 

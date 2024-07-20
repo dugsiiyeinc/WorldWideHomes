@@ -108,17 +108,10 @@ Follow these steps to get a local copy of the project up and running.
 - **Member :** [Ayanle Osman](https://github.com/ayale3)
 - **Member :** [Abdinour Sonkor](https://github.com/AbdinourSonkor)
 
-
-
-
-
-
-
-
-
-
-
-
 ---
+- You can view the live version [here](https://real-state-lac.vercel.app/) 
+
+- Also the original website you can visit [here](https://templatemo.com/live/templatemo_591_villa_agency)
+
 
 Thank you for visiting **WorldWideHomes**! We hope you find the perfect rental home with us 💚💛.
